@@ -8,7 +8,7 @@ def map(array)
   new
 end
 
-def reduce(array, start_point=nil)
+def reduce(array, start_point)
   if start_point
     total = start_point
   else
